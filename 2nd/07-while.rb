@@ -1,0 +1,6 @@
+times = 8
+
+while times < 20 # Mientras que times sea menor  20...
+  puts "#{times} Hello" # imprimir el valor de times, saludar...
+  times += 1 # y sumarle 1 a times.
+end # El bucle while dejará de ejecutarse cuando times sea igual a 20.
