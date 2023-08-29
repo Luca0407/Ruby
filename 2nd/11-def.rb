@@ -4,7 +4,7 @@ end
 
 quit = false
 
-until !quit # Mientras quit NO SEA verdadero. Por mucho que ya sea false, hay que poner "!"
+until quit # Mientras quit NO SEA verdadero. Por mucho que ya sea false, hay que poner "!"
   puts "indica la base de tu rectángulo: "
   b = gets.to_f  # To_f convierte el tipo de dato en float.
   puts "indica la altura de tu rectángulo: "
